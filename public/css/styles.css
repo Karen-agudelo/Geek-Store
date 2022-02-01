@@ -1,0 +1,235 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  color: black;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.inicio-sesion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  background-color: #f4f1de;
+}
+
+.inicio-sesion div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 20%;
+}
+
+.inicio-sesion div img {
+  width: 80px;
+  height: 70%;
+}
+
+.inicio-sesion nav {
+  width: 80%;
+}
+
+.inicio-sesion nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.inicio-sesion nav ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80%;
+}
+
+.inicio-sesion nav ul li img {
+  width: 80px;
+  height: 80%;
+  border-radius: 100%;
+}
+
+.menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  background-color: #df7a5e;
+}
+
+.menu ul li {
+  padding: 10px 30px;
+  background-color: #ffffff;
+  margin: 20px;
+  margin-top: 40px;
+}
+
+.container-slideshow {
+  height: 300px;
+  background-color: #3c405b;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #2085a1;
+  padding: 20px;
+  color: black;
+  padding-bottom: 50px;
+}
+
+footer .informacion-legal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  gap: 50px;
+  list-style: none;
+}
+
+footer .informacion-legal a {
+  text-decoration: none;
+  color: black;
+}
+
+footer .informacion-legal .informacion {
+  margin-bottom: 20px;
+}
+
+footer .redes {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .redes div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-bottom: 50px;
+}
+
+footer .redes div .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+footer .redes div .wrapper i {
+  font-size: 60px;
+}
+
+footer .redes div .wrapper .last {
+  margin-right: 125px;
+}
+
+footer .redes div .raya {
+  border-bottom: solid #8a350e 10px;
+  width: 250px;
+  margin-right: 100px;
+  border-radius: 75px;
+}
+
+.container-products {
+  height: 400px;
+  background-color: #f4f1de;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 20px;
+}
+
+.container-products .field input {
+  height: 25px;
+  background-color: black;
+  border-radius: 75px;
+  width: 300px;
+}
+
+.container-products .field button {
+  border: none;
+}
+
+.container-products .field button i {
+  font-size: 25px;
+}
+
+.licencia {
+  width: 200x;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5%;
+  gap: 60px;
+}
+
+.Copyright {
+  text-align: center;
+}
+/*# sourceMappingURL=styles.css.map */
